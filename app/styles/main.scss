@@ -9,6 +9,7 @@ body{
 }
 
 // navbar
+
 .navbar-default .navbar-nav > li > a{
   color: #34495e;
   font-size: 1.3em;
@@ -20,14 +21,23 @@ body{
   border-color: none;
 }
 
+//hr border
+
+.hrborder{
+  width: 15%;
+  border-color: #c8d9e5;
+  border-width: 4px;
+}
+
 
 //main page
+
 .header{
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  // overflow: hidden;
   background: url('/images/bg2.jpg');
   background-position: center;
   background-size: cover;
@@ -46,8 +56,57 @@ body{
     h1{
       font-size: 3em;
     }
-    // background-color: #22B573;
 }
 
 
-// gallery page
+// about
+.about {
+    padding: 50px 0;
+    // background-color: #ecf0f1;
+    color: #333;
+    // p{
+    //   color: #333;
+    // }
+}
+
+.lead{
+  font-size: 1.5em;
+  padding-bottom: 2.5em;
+}
+
+.clients{
+  padding-bottom: 8em;
+    img{
+      height: 11em;
+      width: 11em;
+    }
+}
+
+
+
+.videocontainer{
+  position: relative;
+  padding-bottom: 48%;
+  padding-top: 25px;
+	height: 0;
+  overflow: hidden;
+  iframe{
+  position: absolute;
+	top: 0;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+  }
+}
+
+.players{
+  padding-top: 3em;;
+}
+
+
+//gallery
+
+.gallery{
+width: 100%;
+height:100%;
+}
