@@ -20,17 +20,23 @@
     <!-- endbuild -->
 
   </head>
-  <body id="background">
+  <body>
     <header id="main" class="header">
       <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container">
             <div class="navbar-header">
-              <a href="#">
+              <a href="#main">
                 <img alt="Brand" src="/images/logo.png">
               </a>
             </div>
-            <ul class="nav navbar-nav navbar-right navbar-collapse collapse">
-              <li><a href="">Gallery</a></li>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <ul class="nav navbar-nav navbar-right navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+              <li><a href="#gallery">Gallery</a></li>
               <li><a href="">About</a></li>
               <li><a href="">Contact</a></li>
             </ul>
@@ -40,6 +46,10 @@
         <h1>We help to prototype your ideas</h1>
       </div>
     </header>
+
+    <section id="gallery">
+          <h2>Tinguraju</h2>
+    </section>
 
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
