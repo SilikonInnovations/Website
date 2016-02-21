@@ -38,7 +38,7 @@
           <ul class="nav navbar-nav navbar-right navbar-collapse collapse" id="bs-example-navbar-collapse-1">
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
     </nav>
@@ -51,6 +51,8 @@
 
     <!-- Gallery page -->
     <section id="gallery" class="gallery">
+      <h2 class="text-center">Gallery</h2>
+      <hr class="hrborder">
       <div class="fotorama"  data-fit="cover" data-autoplay="true">
         <img src="/images/01.jpg">
         <img src="/images/02.jpg">
@@ -105,8 +107,44 @@
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RX-iZn4fCFQ" frameborder="0" allowfullscreen></iframe>
           </div>
         </section>
+        <section id="team">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h2>Players</h2>
+            <hr class="hrborder">
+            <br>
+          </div>
+          <div class="players container text-center">
+            <div class="col-md-3"><img src="images/p1.png" alt="" /><h3>OMKARNATH</h3></div>
+            <div class="col-md-3"><img src="images/p2.png" alt="" /><h3>SUDHEER</h3></div>
+            <div class="col-md-3"><img src="images/p3.png" alt="" /><h3>RAHUL DEVALLA</h3></div>
+            <div class="col-md-3"><img src="images/p4.png" alt="" /><h3>PAVAN KUMAR</h3></div>
+            <div class="col-md-3"><img src="images/p5.png" alt="" /><h3>VIGNESH KUMAR</h3></div>
+            <div class="col-md-3"><img src="images/p6.png" alt="" /><h3>PRAHARSH</h3></div>
+            <div class="col-md-3"><img src="images/p7.png" alt="" /><h3>NAGENDRA</h3></div>
+            <div class="col-md-3"><img src="images/p8.png" alt="" /><h3>PRASHANTH</h3></div>
+          </div>
+        </section>
+        <section id="contact" class="contact">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="form_main">
+                    <h4 class="heading"><strong>Quick </strong> Contact <span></span></h4>
+                    <div class="form">
+                        <form action="contact_send_mail.php" method="post" id="contactFrm" name="contactFrm">
+                            <input type="text" required="" placeholder="Please input your Name" value="" name="name" class="txt">
+                            <input type="text" required="" placeholder="Please input your mobile No" value="" name="mob" class="txt">
+                            <input type="text" required="" placeholder="Please input your Email" value="" name="email" class="txt">
 
-
+                           <textarea placeholder="Your Message" name="mess" type="text" class="txt_3"></textarea>
+                             <input type="submit" value="submit" name="submit" class="txt2">
+                        </form>
+                      </div>
+                    </div>
+                  </div
+                </div>
+              </div>
+        </section>
 
 
     <!--[if lt IE 10]>
