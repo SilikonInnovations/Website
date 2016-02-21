@@ -74,8 +74,10 @@ position: relative;
 background-color:#E0EBE8;
 }
 
-.fotorama__wrap {
+.carousel-inner > .item > img {
     margin: 0 auto;
+    // height: 10em;
+    width: 80%;
 }
 
 
