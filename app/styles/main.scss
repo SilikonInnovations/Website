@@ -59,14 +59,27 @@ body{
 }
 
 
+//gallery
+
+.gallery{
+// width: 100%;
+// height:100%;
+padding: 50px 0;
+background-color: #ecf0f1;
+position: relative;
+}
+
+.fotorama__wrap {
+    margin: 0 auto;
+}
+
+
 // about
+
 .about {
     padding: 50px 0;
     // background-color: #ecf0f1;
     color: #333;
-    // p{
-    //   color: #333;
-    // }
 }
 
 .lead{
@@ -75,28 +88,12 @@ body{
 }
 
 .clients{
-  padding-bottom: 8em;
+  padding-bottom: 6em;
     img{
       height: 11em;
       width: 11em;
+      padding-bottom: 1.5em;
     }
-}
-
-
-
-.videocontainer{
-  position: relative;
-  padding-bottom: 48%;
-  padding-top: 25px;
-	height: 0;
-  overflow: hidden;
-  iframe{
-  position: absolute;
-	top: 0;
-	left: 0%;
-	width: 100%;
-	height: 100%;
-  }
 }
 
 .players{
@@ -104,9 +101,8 @@ body{
 }
 
 
-//gallery
+//video
 
-.gallery{
-width: 100%;
-height:100%;
+.embed-responsive-16by9 {
+    padding-bottom: 39.25%;
 }

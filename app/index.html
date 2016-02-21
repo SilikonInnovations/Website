@@ -18,6 +18,7 @@
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
+    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
 
   </head>
   <body>
@@ -50,7 +51,10 @@
 
     <!-- Gallery page -->
     <section id="gallery" class="gallery">
-
+      <div class="fotorama"  data-fit="cover" data-autoplay="true">
+        <img src="http://s.fotorama.io/1.jpg">
+        <img src="http://s.fotorama.io/2.jpg">
+      </div>
     </section>
 
 
@@ -66,27 +70,32 @@
                     <h2 class="text-center">Clients</h2>
                     <hr class="hrborder">
                     <br>
-                    <div class="row text-center clients">
-                        <div class="col-md-2 col-sm-4"><img src="/images/bharatiya.jpg" />Bharitiya Vidhya Bhavans Public School</div>
-                        <div class="col-md-2 col-sm-4"><img src="/images/chinmaya.jpg" />Chinmaya Vidyalaya</div>
-                        <div class="col-md-2 col-sm-4"><img src="/images/DPS.jpg" />Delhi Public School (Secunderabad)</div>
-                        <div class="col-md-2 col-sm-4"><img src="/images/pallavi.png" />Pallavi Model School</div>
-                        <div class="col-md-2 col-sm-4"><img src="/images/st.francis.jpg" />St.Francis College for Womens</div>
-                        <div class="col-md-2 col-sm-4"><img src="/images/niraj.jpeg" />Neraj Public School</div>
+                    <div class=" text-center clients">
+                        <div class="col-md-2 col-sm-4"><img src="/images/bharatiya.jpg" /></div>
+                        <div class="col-md-2 col-sm-4"><img src="/images/chinmaya.jpg" /></div>
+                        <div class="col-md-2 col-sm-4"><img src="/images/DPS.jpg" /></div>
+                        <div class="col-md-2 col-sm-4"><img src="/images/pallavi.png" /></div>
+                        <div class="col-md-2 col-sm-4"><img src="/images/st.francis.jpg" /></div>
+                        <div class="col-md-2 col-sm-4"><img src="/images/niraj.jpeg" /></div>
                     </div>
-                      <div class="videocontainer col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1">
-                        <iframe src="https://www.youtube.com/embed/RX-iZn4fCFQ" frameborder="0" allowfullscreen></iframe>
-                      </div>
-                      <div class="row text-center ">
+
+                      <!-- <div class="row text-center ">
                         <div class="col-md-12 players">
                           <h2>The Players</h2>
                           <hr class="hrborder">
                         </div>
-                      </div>
+                      </div> -->
 
             </div>
         </div>
     </section>
+
+        <section>
+          <div class="embed-responsive embed-responsive-16by9 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RX-iZn4fCFQ" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </section>
+
 
 
 
@@ -129,6 +138,7 @@
 
     <!-- build:js scripts/main.js -->
     <script src="scripts/particle.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
   </body>
